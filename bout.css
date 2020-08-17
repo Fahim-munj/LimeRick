@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.parent{
+    /* border: 1px solid; */
+    display: grid;
+    grid-template-rows: 20vh 385vh 40vh;
+font-family: 'Poppins', sans-serif;
+}
+.hm{
+    /* border: 1px solid green; */
+   background-color: white;
+    position: sticky;
+    top: 0;
+    display: grid;
+    grid-template-columns: 20% 20% 40%;
+    justify-content: space-around;
+    z-index: 10;
+}
+.icon{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    justify-content: space-evenly;
+    width: 200px;
+}
+.icon .fab{
+    background-color: #ff3271;
+    width: 30px;
+    height: 30px;
+    color: white;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition-duration: .5s;
+}
+.icon .fab:hover{
+transform: rotate(360deg);
+cursor: pointer;
+
+}
+.lgo{
+    display: grid;
+    justify-items: center;
+    align-content: center;
+}
+.lgo img{
+width: 80%;
+height: 35%;}
+
+.nave{
+    display: grid;
+    align-content: center;
+}
+.nave ul{
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+    list-style: none;
+font-family: 'Poppins', sans-serif;
+text-decoration: none;
+}
+.nave ul li{
+    /* background-color: blue; */
+    /* border: 1px solid blue; */
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+   text-transform: capitalize;
+}
+.nave ul a{
+    text-decoration: none;
+}
+.gallery
+{
+    /* border: 1px solid; */
+    display: grid;
+    /* width: 100%; */
+    overflow: hidden;
+    grid-template-rows: 60vh 140vh 80vh 30vh 75vh;
+}
+.sec1{
+    /* border: 1px solid; */
+    width: 100%;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    background-color: white;
+    z-index: 5;
+}
+.abou{
+    display: grid;
+    height: 200px;
+    width: 500px;
+    align-content: center;
+    justify-content: center;
+}
+.round{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(252, 244, 175);
+    border-radius: 50%;
+    display: grid;
+    align-content: center;
+    justify-content: end;
+}
+.abou h1{
+  font-size: 60px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  position: absolute;
+right: 420px;
+  bottom: 270px;
+}
+
+.sec2{
+    /* border: 1px solid blue; */
+display: grid;
+grid-template-columns: 50% 50%;
+width: 100%;
+position: relative;
+overflow: hidden;
+}
+.sect1{
+    /* border: 1px solid yellow; */
+    display: grid;
+    justify-content: center;
+    align-content: space-evenly;
+    height: 95%;
+}
+.sect1 h1{
+    font-size: 40px;
+    font-weight: bolder;
+}
+.pink{
+    width: 70px;
+    height: 5px;
+    background-color:#ff3271;
+}
+.sect1 p{
+    font-size: 17px;
+    color: grey;
+}
+.pix{
+   display: grid;
+   justify-self: end;
+   overflow: hidden;
+   z-index: 1;
+}
+.pix img{
+    position: absolute;
+    overflow: hidden;
+    animation: rotate 40s infinite linear;
+    left: 65%;
+    top: -25%;
+}
+@keyframes rotate{
+    100%{transform:rotate(720deg);}
+}
+.lap{
+    display: grid;
+    justify-self: end;
+    z-index: 6;
+}
+.lap img{
+    position: absolute;
+    top: 22%;
+    left: 43.5%;
+}
+.sec3{
+    /* border: 1px solid green; */
+    background-color: rgb(255, 224, 229);
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    grid-template-rows: 30% 70%;
+}
+.pik{
+    display: grid;
+    justify-self: center;
+   align-self: center;
+}
+.aro{
+    display: grid;
+    grid-template-columns: 6% 90% 4%;
+    justify-self: space-around;
+    /* align-content: space-around; */
+}
+.aro h5{
+    font-size: 10rem;
+    font-weight: lighter;
+}
+.para{
+    display: grid;
+    align-content: center;
+}
+.para h3{
+    justify-self: center;
+}
+.para h6{
+    color: grey;
+    font-size: 18px;
+    justify-self: center;
+    font-weight: lighter;
+}
+.para p{
+    font-size: 20px;
+    color: grey;
+    /* align-self: center; */
+}
+.pik img{
+    border-radius: 50%;
+}
+.sec4{
+    /* border: 1px solid red; */
+    display: grid;
+    justify-content:center;
+    align-content: center;
+}
+.sec4 .pinc{
+    width: 70px;
+    height: 5px;
+    background-color: #ff3271;
+    justify-self: center;
+}
+.sec5{
+    /* border: 1px solid yellow; */
+    display: grid;
+    justify-content: center;
+}
+.tas{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.tas1 img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+.foter{
+    display: grid;
+    align-content: center;
+}
+.footer
+{
+    /* border: 1px solid blue; */
+    display: grid;
+    justify-content: center;
+    align-content: space-evenly;
+    height:30vh ;
+}
+.footer img{
+    width: 200px;
+    height: 40px;
+}
+.footer h4{
+    margin-left: -70px;
+    font-weight: lighter;
+}
